@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    overflow-x: hidden;
+}
+#back{
+    background-image:url(../image/banner.jpg) ;
+    width:100%;
+    height: 700px;
+}
+#cover{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    opacity: 0.7;
+}
+#D1e{
+    position: relative;
+    bottom: 650px;
+}
+#D1e>img{
+    position: absolute;
+    width: 150px;
+    left: 90px;
+}
+#D1e>select{
+    position: absolute;
+    left: 1100px;
+    padding: 10px;
+    background-color:transparent;
+    color: white;
+}
+#D1e>button{
+    position: absolute;
+    left: 1200px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+#D2e{
+    position: relative;
+    bottom: 510px;
+}
+#D2e>h1{position: absolute;
+    color: white;
+    text-align: center;
+    left: 460px;
+    font-size: 50px;
+    
+    }
+#D2e>h6{
+    position: absolute;
+    color: white;
+    top: 130px;
+    font-size: 20px;
+    left: 540px;
+}
+#D2e>p{
+    position: absolute;
+    top: 170px;
+    font-size: 20px;
+    color: white;
+    left: 470px;
+    text-align: center;
+}
+#D2e1{
+    position: relative;
+    top: 300px;
+}
+#D2e1>input{
+    position: absolute;
+    padding: 10px;
+    border:1px solid gray;
+    bottom: 10px;
+    width:300px;
+    background-color: transparent;
+    left: 450px;
+}
+#D2e1>button{
+    position: absolute;
+    left: 800px;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    bottom: 10px;
+}
+
+
+
+@media all and (max-width:500px) {
+    #D1e>img{
+        position: absolute;
+        width: 10 0px;
+        left: 20px;
+    }
+    #D1e>select{
+        position: absolute;
+        left: 200px;
+        padding: 10px;
+        background-color:transparent;
+        color: white;
+        width: 80px;
+    }
+    #D1e>button{
+        position: absolute;
+        left: 300px;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+    }
+#D2e>h1{position: absolute;
+    color: white;
+    text-align: center;
+    left: 60px;
+    font-size: 25px;
+    bottom: 5px;
+    }
+#D2e>h6{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    left: 60px;
+    bottom: 80px;
+    top: 10px;
+}
+#D2e>p{
+    position: absolute;
+    top: 50px;
+    font-size: 14px;
+    color: white;
+    left: 40px;
+    text-align: center;
+}
+#D2e1>input{
+    position: absolute;
+    padding: 10px;
+    border:1px solid gray;
+    bottom: 150px;
+    width:170px;
+    background-color: transparent;
+    left: 50px;
+}
+#D2e1>button{
+    position: absolute;
+    left: 250px;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    bottom: 150px;
+}
+    
+}
+@media all and (min-width:500px) {
+    
+}
