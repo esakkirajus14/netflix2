@@ -94,6 +94,148 @@ body{
     bottom: 10px;
 }
 
+#border{
+    border-top: 10px solid red;
+    border-top-left-radius: 50% 100%;
+    border-top-Right-radius: 50% 100%;
+}
+#bg{
+    background: rgb(51,51,77);
+background: linear-gradient(41deg, rgb(27, 27, 54) 0%, rgba(0,0,0,1) 100%);
+min-height: 800px;
+position: relative;
+}
+#tren{
+    position: absolute;
+    left: 50px;
+    color: white;
+}
+#tren>select{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#select{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    color: white;
+    border: 1px solid white;
+}
+#E2>h1{
+    position: absolute;
+    bottom: 600px;
+    left: 50px;
+    color: white;
+
+}
+#E3{
+    position: relative;
+    top: 120px;
+}
+#box1{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 70px;
+border-radius: 7px;
+padding: 20px;
+left: 40px;
+display: inline-block;
+margin: 10px;
+}
+#box1>p{
+    position: absolute;
+    top: 80px;
+}
+#box1>img{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+#box1>h1{
+    font-size: 27px;
+}
+#box2{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 70px;
+border-radius: 7px;
+padding: 20px;
+left: 350px;
+display: inline-block;
+margin: 10px;
+}
+#box2>h1{
+font-size: 27px;
+}
+#box2>img{
+    position: absolute;
+    left: 190px;
+    bottom: 20px;
+}
+#box3{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 70px;
+border-radius: 7px;
+padding: 20px;
+left: 670px;
+display: inline-block;
+margin: 10px;
+}
+#box3>h1{
+    font-size: 27px;
+}
+#box3>img{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+#box3>p{
+    position: absolute;
+    top: 70px;
+}
+#box4{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 70px;
+border-radius: 7px;
+padding: 20px;
+left: 1000px;
+display: inline-block;
+margin: 10px;
+}
+#box4>h1{
+    font-size: 27px;
+}
+#box4>img{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+#box4>p{
+    position: absolute;
+    top: 90px;
+}
 
 
 @media all and (max-width:500px) {
@@ -122,7 +264,7 @@ body{
 #D2e>h1{position: absolute;
     color: white;
     text-align: center;
-    left: 60px;
+    left: 90px;
     font-size: 25px;
     bottom: 5px;
     }
@@ -130,16 +272,16 @@ body{
     position: absolute;
     color: white;
     font-size: 17px;
-    left: 60px;
+    left: 75px;
     bottom: 80px;
     top: 10px;
 }
 #D2e>p{
     position: absolute;
     top: 50px;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
-    left: 40px;
+    left: 35px;
     text-align: center;
 }
 #D2e1>input{
@@ -162,7 +304,106 @@ body{
     width: 100px;
     bottom: 150px;
 }
-    
+#bg{
+    background: rgb(51,51,77);
+background: linear-gradient(41deg, rgb(27, 27, 54) 0%, rgba(0,0,0,1) 100%);
+min-height: 1500px;
+position: relative;
+}
+#E2>h1{
+    position: absolute;
+    bottom: 1300px;
+    left: 20px;
+    font-size: 27px;
+    color: white;
+}
+#E3{
+    position: relative;
+    top: 180px;
+}
+#box1{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: relative;
+top: 50px;
+border-radius: 7px;
+padding: 20px;
+left: 30px;
+display: inline-block;
+margin: 10px;
+}
+#box2{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 300px;
+border-radius: 7px;
+padding: 20px;
+left: 30px;
+display: inline-block;
+margin: 10px;
+}
+#box2>h1{
+font-size: 27px;
+}
+#box2>img{
+    position: absolute;
+    left: 190px;
+}
+#box3{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 550px;
+border-radius: 7px;
+padding: 20px;
+left: 30px;
+display: inline-block;
+margin: 10px;
+}
+#box3>h1{
+    font-size: 27px;
+}
+#box3>img{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+#box3>p{
+    position: absolute;
+    top: 70px;
+}
+#box4{
+    background: rgb(83,84,124);
+background: linear-gradient(121deg, rgba(83,84,124,1) 30%, rgba(122,53,53,1) 100%);
+width: 250px;
+height: 200px;
+position: absolute;
+top: 800px;
+border-radius: 7px;
+padding: 20px;
+left: 30px;
+display: inline-block;
+margin: 10px;
+}
+#box4>h1{
+    font-size: 27px;
+}
+#box4>img{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+#box4>p{
+    position: absolute;
+    top: 90px;
+}
 }
 @media all and (min-width:500px) {
     
