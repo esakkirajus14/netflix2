@@ -238,6 +238,131 @@ margin: 10px;
 }
 
 
+#SDC{
+    background: rgb(51,51,77);
+    background: linear-gradient(41deg, rgb(37, 37, 92) 0%, rgba(0,0,0,1) 100%);
+    min-height: 1000px;
+}
+
+#SDC > h1{
+   color: rgb(243, 234, 234);
+  
+   
+
+}
+#SDC1 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC1 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+#SDC2 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC2 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+#SDC3 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC3 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+#SDC4 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC4 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+#SDC5 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC5 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+#SDC6 > h1{
+    display: inline;
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+#SDC6 > img{
+    position: absolute;
+    color: aqua;
+    left: 1200px;
+    width: 50px;
+}
+.a2{
+    background-color: rgb(87, 81, 81);
+    height: 50px;
+    margin: 30px
+    
+}
+#to>p{
+    position: absolute;
+    left: 350px;
+    color: white;
+    font-size: 20px;
+}
+#red>input{
+    position: relative;
+left: 300px;
+width: 500px;
+height: 30px;
+top: 40px;
+padding: 10px;
+border: 1px solid gray;
+background-color:transparent;
+    
+}
+#red>button{
+    position: relative;
+    left: 320px;
+    top: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 150px;
+    border-radius: 7px;
+    padding: 15px;
+
+    
+
+}
+
+
+
+
 @media all and (max-width:500px) {
     #D1e>img{
         position: absolute;
@@ -304,12 +429,14 @@ margin: 10px;
     width: 100px;
     bottom: 150px;
 }
+
 #bg{
     background: rgb(51,51,77);
 background: linear-gradient(41deg, rgb(27, 27, 54) 0%, rgba(0,0,0,1) 100%);
 min-height: 1500px;
 position: relative;
 }
+
 #E2>h1{
     position: absolute;
     bottom: 1300px;
@@ -403,6 +530,138 @@ margin: 10px;
 #box4>p{
     position: absolute;
     top: 90px;
+}
+#SDC1 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC1 > img{
+    position: relative;
+    color: aqua;
+    left: 130px;
+    top: 10px;
+    width: 30px;
+}
+#SDC2 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC2 > img{
+    position: relative;
+    color: aqua;
+    left: 40px;
+    top: 10px;
+    width: 30px;
+}
+#SDC3 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC3> img{
+    position: relative;
+    color: aqua;
+    left: 110px;
+    top: 10px;
+    width: 30px;
+}
+#SDC4 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC4 > img{
+    position: relative;
+    color: aqua;
+    left: 140px;
+    top: 10px;
+    width: 30px;
+}
+#SDC5 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC5 > img{
+    position: relative;
+    color: aqua;
+    left: 40px;
+    top: 10px;
+    width: 30px;
+}
+#SDC6 > h1{
+    display: inline;
+    color: white;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 5px;
+}
+#SDC6 > img{
+    position: relative;
+    color: aqua;
+    left:80px;
+    top: 10px;
+    width: 30px;
+}
+.a2{
+    background-color: rgb(87, 81, 81);
+    height: 50px;
+    margin: 30px
+}
+#SDC{
+    background: rgb(51,51,77);
+    background: linear-gradient(41deg, rgb(37, 37, 92) 0%, rgba(0,0,0,1) 100%);
+    min-height: 1000px;
+}
+#to>p{
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+#red>input{
+    position: relative;
+left: 20px;
+width: 300px;
+height: 30px;
+top: 50px;
+padding: 10px;
+border: 1px solid gray;
+background-color:transparent;
+    
+}
+#red>button{
+    position: relative;
+    left: 100px;
+    top: 70px;
+    border: none;
+    background-color: red;
+    color: white;
+    width: 150px;
+    border-radius: 7px;
+    padding: 15px;
+
+    
+
 }
 }
 @media all and (min-width:500px) {
